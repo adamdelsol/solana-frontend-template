@@ -4,7 +4,7 @@
   "description": "A react starter template with solana wallet adapter included",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
