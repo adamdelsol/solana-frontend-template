@@ -4,7 +4,10 @@
   "description": "A react starter template with solana wallet adapter included",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -18,11 +21,15 @@
   },
   "homepage": "https://github.com/adamdelsol/solana-frontend-template#readme",
   "devDependencies": {
+    "@types/react": "^18.0.15",
     "ts-node": "^10.8.2",
     "typescript": "^4.7.4"
   },
   "dependencies": {
     "@solana/web3.js": "^1.47.3",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
