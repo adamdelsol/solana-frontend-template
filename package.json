@@ -1,0 +1,28 @@
+{
+  "name": "solana-frontend-template",
+  "version": "1.0.0",
+  "description": "A react starter template with solana wallet adapter included",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdelsol/solana-frontend-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamdelsol/solana-frontend-template/issues"
+  },
+  "homepage": "https://github.com/adamdelsol/solana-frontend-template#readme",
+  "devDependencies": {
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.47.3",
+    "dotenv": "^16.0.1"
+  }
+}
